@@ -1,9 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css'; // Import the CSS file
 import PlaneCard from './components/PlaneCards/PlaneCard'; // Import the PlaneCard component
-import planeCardsData from './data/planeCards.json'; // Import the plane cards data
 
 const App = () => {
+  const [planeCards, setPlaneCards] = useState([]);
+
+  useEffect(() => {
+    // Fetch plane card data from the JSON file
+    fetch('/data/planeCards.json')
+      .then(response => response.json())
+      .then(data => setPlaneCards(data))
+      .catch(error => console.error('Error fetching plane card data:', error));
+  }, []);
+
   const [currentCardIndex, setCurrentCardIndex] = useState(0); // State to manage current card index
 
   const handleNextCard = () => {
@@ -18,9 +27,11 @@ const App = () => {
       </header>
       <main className="app-main">
         {/* Render the current plane card */}
-        <PlaneCard {...planeCardsData[currentCardIndex]} />
+        {planeCards.length > 0 && (
+          <PlaneCard {...planeCards[currentCardIndex]} />
+        )}
         {/* Next button */}
-        {currentCardIndex < planeCardsData.length - 1 && (
+        {currentCardIndex < planeCards.length - 1 && (
           <button onClick={handleNextCard}>Next</button>
         )}
       </main>
