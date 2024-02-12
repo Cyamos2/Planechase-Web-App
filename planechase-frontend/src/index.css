@@ -1,26 +1,15 @@
-/* Apply a box-sizing border-box to all elements */
-* {
-  box-sizing: border-box;
-}
+/* index.css */
 
-/* Remove default margin and padding from all elements */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Set body background color and font family */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+/* Root container styles */
+#root {
+  height: 100vh; /* Set the root container height to fill the viewport */
 }
 
-/* Set a max-width and center content */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Add more global styles as needed */
+/* Additional global styles can be added here */
