@@ -1,32 +1,54 @@
-/* App.css */
+/* Apply styles to the root element */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
 
-/* Reset some default styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style the app container */
-  .app {
-    text-align: center;
-  }
-  
-  /* Style the header */
-  .app-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-  }
-  
-  /* Style the main content area */
-  .app-main {
-    padding: 20px;
-  }
-  
-  /* Style the footer */
-  .app-footer {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-  }
-  
+/* Apply styles to the main content area */
+.main-content {
+  text-align: center;
+}
+
+/* Apply styles to headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Apply styles to buttons */
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Apply styles to form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add more styles as needed */
