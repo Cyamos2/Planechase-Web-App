@@ -1,0 +1,32 @@
+/* App.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the app container */
+  .app {
+    text-align: center;
+  }
+  
+  /* Style the header */
+  .app-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Style the main content area */
+  .app-main {
+    padding: 20px;
+  }
+  
+  /* Style the footer */
+  .app-footer {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
