@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PlaneCard from './components/PlaneCard'; // Adjust the import path as needed
+import PlaneCard from './components/PlaneCards/PlaneCard'; // Adjust the import path
 
 const App = () => {
   const [planeCards, setPlaneCards] = useState([]);
