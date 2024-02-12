@@ -1,12 +1,11 @@
 import React from 'react';
+import './PlaneCard.css'; // Import PlaneCard.css for styling
 
-const PlaneCard = ({ card }) => {
+const PlaneCard = () => {
   return (
     <div className="plane-card">
-      <h2>{card.name}</h2>
-      <p><strong>Type:</strong> {card.type}</p>
-      <p><strong>Effect:</strong> {card.effect}</p>
-      {/* Add more details as needed */}
+      <h2>Plane Card</h2>
+      {/* Add content for the plane card */}
     </div>
   );
 };
