@@ -12,7 +12,7 @@ const App = () => {
         <p>Welcome to the Planechase Web App!</p>
       </main>
       <footer className="app-footer">
-        <p>Developed by Your Name</p>
+        <p>Developed by Christopher Amos</p>
       </footer>
     </div>
   );
