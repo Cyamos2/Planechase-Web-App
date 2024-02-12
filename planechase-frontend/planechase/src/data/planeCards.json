@@ -1,0 +1,27 @@
+[
+    {
+      "name": "The Eon Fog",
+      "description": "At the beginning of your upkeep, you may move the planar die to the next plane. Any player may activate a planar ability of the plane you’re on."
+    },
+    {
+      "name": "The Maelstrom",
+      "description": "At the beginning of your upkeep, you may move the planar die to the next plane. Any player may roll the planar die."
+    },
+    {
+      "name": "Krosa",
+      "description": "Creatures have trample. Whenever a creature deals combat damage to a player, its controller may cast a creature spell from their hand without paying its mana cost."
+    },
+    {
+      "name": "Jund",
+      "description": "Whenever a player casts a black, red, or green creature spell, it gains devour 5. (As the creature enters the battlefield, its controller may sacrifice any number of creatures. The creature enters the battlefield with five times that many +1/+1 counters on it.)"
+    },
+    {
+      "name": "Llanowar",
+      "description": "Whenever a player taps a land for mana, that player adds one mana of any type that land produced."
+    },
+    {
+      "name": "Naya",
+      "description": "Whenever a player taps a land for mana, that player adds one mana of any type that land produced. Whenever you roll the planar die, target creature gets +X/+X until end of turn, where X is the number of cards in your hand."
+    }
+  ]
+  
