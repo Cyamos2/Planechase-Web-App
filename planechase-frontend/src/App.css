@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Overall styles for the entire app */
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .App-header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+  }
+  
+  /* Main content area styles */
+  .App-main {
+    padding: 20px;
+  }
+  
+  /* Styles for the planar card */
+  .PlaneCard {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .PlaneCard-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Button styles */
+  .Button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .App-header {
+      font-size: 18px;
+    }
+  
+    .PlaneCard {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .Button {
+      padding: 8px 16px;
+    }
+  }
+  
