@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
-import PlaneCard from './components/PlaneCard';
-import PlanarCards from './data/PlanarCards'; // Importing the PlanarCards data
+import 'planechase-frontend/src/App.css';
+import PlaneCard from 'planechase-frontend/src/components/PlaneCard/planeCard.js';
+import PlanarCards from 'planechase-frontend/src/data/planarCards.js'; // Importing the PlanarCards data
 
 function App() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
